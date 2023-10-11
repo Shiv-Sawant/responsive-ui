@@ -87,7 +87,7 @@ const Carousel2 = () => {
                     <h1>Parsley Seed Skin Care</h1>
                     <h2>Fortification of the highest order</h2>
                     <p>
-                        Our Parsley Seed Skin Care range provides potent doses of anti-<br />oxidant rich ingredients in formulations suited to all skin types. They<br /> are especially recommended for those in urban environments, to fortify<br /> the skin against the damaging effects of free radicals.
+                        Our Parsley Seed Skin Care range provides potent doses of anti-oxidant rich ingredients in formulations suited to all skin types. They are especially recommended for those in urban environments, to fortify the skin against the damaging effects of free radicals.
                     </p>
 
                     <p>
@@ -95,7 +95,7 @@ const Carousel2 = () => {
                     </p>
                 </section>
 
-                <div>
+                <div className='div22'>
                     {
                         cardItems.map((card, index) => {
                             return (

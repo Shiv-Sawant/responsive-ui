@@ -206,8 +206,8 @@ section {
 
     .carousel1card10,
     .carousel1card1 {
-        min-height: 300px;
-        max-height: 300px;
+        min-height: 230px;
+        max-height: 230px;
         /* overflow: ; */
     }
 
@@ -215,14 +215,37 @@ section {
         min-height: 320px;
         max-height: 320px;
         /* background-color: yellow; */
-        overflow: hidden;
+        overflow: hidden !important;
+        padding: 1.5rem 1.5rem;
     }
+
+    .carousel1card10 h2{
+        letter-spacing: 0px;
+        word-spacing: 0px;
+    }
+
+    .carousel1card10 p{
+        /* background-color: red; */
+        min-width: 310px;
+        max-width: 310px;
+        
+    }
+
+    .carousel1card1 p{
+        /* background-color: red; */
+        min-width: 300px;
+        max-width: 300px;
+    }
+
+
 
     .carousel1card1 {
         padding-left: 1rem;
         padding-top: 1rem;
+        /* background-color: red; */
         padding-bottom: 1rem;
         scroll-snap-align: start;
+        gap: 0.5rem;
     }
 
     .carousel1card2 {
@@ -242,6 +265,10 @@ section {
 
     }
 
+    .carousel1card2 img{
+        width: 300px;
+    }
+
     .carousel1-component,
     .carousel2-component {
         display: flex;
@@ -256,14 +283,14 @@ section {
 
     .carousel2-component {
         /* background-color: red; */
-        min-height: 950px;
-        max-height: 950px;
+        min-height: 850px;
+        max-height: 850px;
         display: flex;
         flex-direction: column;
         gap: 1rem;
     }
 
-    .carousel1-component div {
+    .carousel1-component > div {
         overflow-x: scroll;
         scroll-behavior: smooth;
         scroll-snap-type: x mandatory;
@@ -272,21 +299,33 @@ section {
         align-items: center;
     }
 
-    .carousel2-component div {
+    .carousel2-component > div {
         display: flex;
-        overflow-x: scroll;
+        overflow: hidden;
         scroll-behavior: smooth;
         scroll-snap-type: x mandatory;
     }
 
+    .carousel2-component .div22 section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        /* background-color: red; */
+        /* min-height: 200px;
+        max-height: 200px; */
+    }
+
     .carousel1card2-div1 {
         overflow: hidden;
+        display: flex;
+        align-items: center;
     }
 
     .nextlink {
         background-color: rgb(62, 62, 62);
         position: absolute;
-        top: 120rem;
+        top: 140rem;
         right: 0;
     }
 
@@ -298,8 +337,12 @@ section {
     .prevlink {
         background-color: rgb(62, 62, 62);
         position: absolute;
-        top: 120rem;
+        top: 140rem;
         left: 0;
+    }
+
+    .carousel1card2-img-div1{
+        overflow: hidden;
     }
 
 }

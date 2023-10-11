@@ -37,8 +37,8 @@ const Carousel3 = () => {
       <div className='carousel3-div1'>
         <h2>Store locator</h2>
 
-        <p>
-          Our consultants are available to host you in-store and <br /> provide tailored guidance on gift purchases.
+        <p className='p31'>
+          Our consultants are available to host you in-store and  provide tailored guidance on gift purchases.
         </p>
         <button>
           <p>    Find a nearby store</p><><BsArrowRight /></>
