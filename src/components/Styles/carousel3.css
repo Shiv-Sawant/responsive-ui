@@ -1,0 +1,163 @@
+.carousel3 {
+    min-height: 700px;
+    max-height: 700px;
+    /* background-color: red; */
+    /* border: 1px solid yellow;     */
+    background-color: #fffef2;
+    padding: 5rem 0;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+
+}
+
+.carousel3-div1 {
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid green; */
+    min-width: 600px;
+    max-width: 600px;
+    min-height: 400px;
+    max-height: 400px;
+    padding: 0 4rem;
+    gap: 2rem;
+    margin-left: 50px;
+}
+
+.carousel3-div1 h2 {
+    font-weight: 400;
+}
+
+.carousel3-div1 button p {
+    padding: 0;
+    margin: 0;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: black;
+}
+
+.carousel3-div1 button {
+    width: 300px;
+    height: 60px;
+    background-color: transparent;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.carousel3main {
+    min-width: 900px;
+    max-width: 900px;
+    min-height: 550px;
+    max-height: 550px;
+    overflow: scroll;
+    display: flex;
+    scroll-snap-type: x mandatory;
+    margin-bottom: 1rem;
+    scroll-behavior: smooth;
+    padding-bottom: 1rem;
+    margin-left: 300px;
+
+}
+
+.carousel3main img {
+    width: auto;
+    height: 100%;
+    scroll-snap-align: start;
+}
+
+.prevlinkxx,
+.nextlinkxx {
+    background-color: rgb(65, 65, 65);
+    text-decoration: none;
+    color: white;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nextlinkxx {
+    position: absolute;
+    top: 228rem;
+    right: 0;
+    margin-left: 100px;
+}
+
+.prevlinkxx {
+    left: 63.7rem;
+    top: 228rem;
+    position: absolute;
+}
+
+
+@media screen and (max-width:768px) {
+    .carousel3 {
+        min-height: 700px;
+        max-height: 700px;
+        background-color: #fffef2;
+        padding: 5rem 0;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 1rem;
+        overflow: hidden;
+    }
+
+    .carousel3-div1 {
+        display: flex;
+        flex-direction: column;
+        min-width: 390px;
+        max-width: 390px;
+        min-height: 300px;
+        max-height: 300px;
+        padding: 0 4rem;
+        gap: 2rem;
+        /* border: 1px solid red; */
+        margin-top: -20px;
+        margin-left:5px;
+    }
+
+    .carousel3main {
+        min-width: 400px;   
+        max-width: 400px;
+        min-height: 300px;
+        max-height: 300px;
+        overflow: scroll;
+        display: flex;
+        scroll-snap-type: x mandatory;
+        margin-bottom: 1rem;
+        scroll-behavior: smooth;
+        padding-bottom: 1rem;
+        margin-left: -435px;
+        margin-top: 290px;
+    }
+
+    .prevlinkxx,
+.nextlinkxx {
+    background-color: rgb(65, 65, 65);
+    text-decoration: none;
+    color: white;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nextlinkxx {
+    position: absolute;
+    top: 285rem;
+    /* left: 15rem; */
+    right: -0.7rem;
+    margin-left: 110px;
+}
+
+.prevlinkxx {
+    left: 0.2rem;
+    top: 285rem;
+    position: absolute;
+}
+}

@@ -1,0 +1,132 @@
+.card2-container {
+    width: 100%;
+    height: 600px;
+    display: flex
+}
+
+
+.card2-box1 {
+    width: 50%;
+    height: 600px;
+}
+
+.card2-box1>img {
+    width: 100%;
+    height: 600px;
+}
+
+.card2-box2 {
+    height: 400px;
+    width: 600px;
+    margin-left: 130px;
+    margin-top: 5px;
+}
+
+.card2-box2>div>p {
+    padding: 10px;
+    font-size: 17px;
+}
+
+
+.card2-box2>div>h2 {
+    font-weight: 400;
+    margin-left: 5px;
+}
+
+
+.card2-box2>div>button {
+    width: 300px !important;
+    height: 55px !important;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+}
+
+
+.card2-box2>div>button:hover {
+    width: 300px !important;
+    height: 55px !important;
+    margin-left: 20px;
+    display: flex;
+    background-color: black;
+    color: white !important;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+}
+
+
+.card2-box2>div>button>p {
+    font-size: 15px;
+    margin-top: 7px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .card2-container {
+        width: 100%;
+        height: 700px;
+        display: block
+    }
+
+
+    .card2-box1 {
+        width: 100%;
+        height: 300px;
+    }
+
+    .card2-box1>img {
+        width: 100%;
+        height: 300px;
+    }
+
+    .card2-box2 {
+        height: 400px;
+        width: 350px;
+        margin-left: 20px;
+        margin-top: 5px;
+    }
+
+    .card2-box2>div>p {
+        padding: 10px;
+        font-size: 17px;
+    }
+
+
+    .card2-box2>div>h2 {
+        font-weight: 400;
+        margin-left: 5px;
+    }
+
+
+    .card2-box2>div>button {
+        width: 300px !important;
+        height: 55px !important;
+        margin-left: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 15px;
+    }
+
+
+    .card2-box2>div>button:hover {
+        width: 300px !important;
+        height: 55px !important;
+        margin-left: 10px;
+        display: flex;
+        background-color: black;
+        color: white !important;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 15px;
+    }
+
+
+    .card2-box2>div>button>p {
+        font-size: 15px;
+        margin-top: 7px;
+    }
+}

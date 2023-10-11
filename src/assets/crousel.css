@@ -1,0 +1,88 @@
+/* Carousel container */
+.carousel-container {
+    width: 100%;
+    height: 404px;
+    border: 1px solid red;
+    margin: 0 auto;
+    position: relative;
+    background-color: #f1f0e8;
+    z-index: -1;
+
+}
+
+/* Center align the arrows */
+.custom-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    /* Customize arrow size */
+    cursor: pointer;
+}
+
+.custom-prev {
+    left: 0;
+}
+
+.custom-next {
+    right: 0;
+}
+
+
+.carousel-item {
+    /* display: inline-block; */
+    /* justify-content: flex-end; */
+    /* width: 100%; */
+    border: 1px solid blue;
+}
+
+.carousel-item  .img1{
+    background-image: url("../assets//slider1.avif");
+
+}
+
+.carousel-item  .img2{
+    background-image: url("../assets//slider1.avif");
+
+}
+
+
+
+.carousel-box {
+    display: flex;
+    border: 1px solid yellow;
+    align-items: flex-start;
+    height: 50%;
+}
+
+.slider-box{
+    /* border: 1px solid black; */
+   margin: auto;
+   margin-top: 70px;
+   margin-left: 245px;
+    width: 32%;
+    height: 50%;
+}
+
+.slider-para1{
+    font-size: 14px;
+    color: black;
+}
+
+.slider-para2{
+    font-size: 25px;
+}
+
+.slider-para3{
+   font-size: 16px;
+}
+
+.discover-btn{
+    height: 45px;
+    width: 287px;
+    /* padding: 10px; */
+    /* padding-top: 10px; */
+    border: 1px solid gray;
+    font-size: 15px;
+    background-color: transparent;
+}

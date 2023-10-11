@@ -1,0 +1,58 @@
+.messagebox {
+    height: 460px;
+    width: 100%;
+    background-color: #fffef2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* border: 5px solid green ; */
+    /* margin-top: 90px; */
+}
+
+.p1 {
+
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.p2 {
+    font-size: 14px;
+    font-weight: bold;
+    color: solid gray;
+    margin-left: 250px;
+}
+
+@media screen and (max-width: 768px) {
+    .messagebox {
+        height: 400px;
+        width: 100%;
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .messagebox>div {
+        width: 300px;
+    }
+
+
+    .p1 {
+        margin-left: 25px !important;
+        font-weight: 400 !important;
+        font-size: x-large;
+        line-height: 30px;
+    }
+
+    .p2 {
+        margin-left: 80px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .messagebox>p {
+        /* margin-top: 20px; */
+
+    }
+}

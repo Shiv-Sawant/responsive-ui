@@ -1,0 +1,305 @@
+.carousel1-component,
+.carousel2-component {
+    min-height: 630px;
+    max-height: 630px;
+    min-width: 1940px;
+    max-width: 1520px;
+    overflow-x: scroll;
+    box-sizing: border-box;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 254, 242, 255);
+    cursor: pointer;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+}
+
+section {
+    scroll-snap-align: start;
+}
+
+.carousel1-component button {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+/*width*/
+::-webkit-scrollbar {
+    width: 0px;
+    margin: 3rem !important;
+    min-height: 5px !important;
+    max-height: 5px !important;
+}
+
+/*track*/
+::-webkit-scrollbar-track {
+    min-height: 15px !important;
+    max-height: 15px !important;
+    margin: 6rem !important;
+    background: #dad9cf;
+    border-style: solid;
+    border-color: #dad9cf;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #81807a;
+}
+
+/*thumb pressed*/
+::-webkit-scrollbar-thumb:active {
+    border-width: 20px !important;
+    background-color: #81807a !important;
+    border-style: solid;
+}
+
+.carousel1card1,
+.carousel1card10 {
+    /* background-coslor: red; */
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    min-width: 520px;
+    max-width: 520px;
+    padding-left: 4rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    position: relative;
+}
+
+.carousel1card10 {
+    min-width: 570px;
+    max-width: 570px;
+    /* border: 1px solid red; */
+}
+
+.carousel1card1 h1,
+.carousel1card10 h1 {
+    font-size: 1rem;
+}
+
+.carousel1card1 h2,
+.carousel1card10 h2 {
+    font-weight: 300;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+}
+
+.carousel1card1 p,
+.carousel1card10 p {
+    font-size: 0.8rem;
+    /* word-spacing: 1px; */
+    letter-spacing: 0.5px;
+    line-height: 1.3rem;
+}
+
+.carousel1card10 p {
+    /* letter-spacing: 0.1px; */
+    line-height: 1.3rem;
+}
+
+.carousel1card2 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-width: 450px;
+    max-width: 450px;
+    position: relative;
+    /* background-color: red; */
+    /* overflow: hidden; */
+}
+
+.carousel1card2-div1 {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    overflow: hidden;
+    padding: 1rem;
+    align-items: center;
+}
+
+.carousel1card2-img-div1 {
+    min-height: 400px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.carousel1card2-div1 img {
+    width: 400px;
+    /* height: ; */
+}
+
+.carousel1card2-div2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.carousel1card2-div2 p {
+    font-size: 0.8rem;
+}
+
+.carousel1card2-div2 a {
+    font-size: 0.8rem;
+    font-weight: 600;
+    /* text-decoration: none; */
+    color: black;
+}
+
+.prevlink,
+.nextlink,
+.prevlinkx,
+.nextlinkx {
+    text-decoration: none;
+    color: white;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.prevlink:hover,
+.nextlink:hover,
+.prevlinkx:hover,
+.nextlinkx:hover {
+    color: white;
+}
+
+.prevlink,
+.prevlinkx {
+    background-color: rgb(62, 62, 62);
+    position: absolute;
+    top: 100rem;
+    left: 0;
+}
+
+.prevlinkx,
+.nextlinkx {
+    top: 180rem !important;
+}
+
+.nextlink,
+.nextlinkx {
+    background-color: rgb(62, 62, 62);
+    position: absolute;
+    top: 100rem;
+    right: 0;
+}
+
+@media screen and (max-width:768px) {
+
+    section {
+        display: flex;
+        scroll-snap-align: none;
+    }
+
+    .carousel1-component div section {
+        scroll-snap-align: start;
+        overflow: hidden;
+    }
+
+    .carousel1card10,
+    .carousel1card1 {
+        min-height: 300px;
+        max-height: 300px;
+        /* overflow: ; */
+    }
+
+    .carousel2-component .carousel1card10 {
+        min-height: 320px;
+        max-height: 320px;
+        /* background-color: yellow; */
+        overflow: hidden;
+    }
+
+    .carousel1card1 {
+        padding-left: 1rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        scroll-snap-align: start;
+    }
+
+    .carousel1card2 {
+        padding-left: 1rem;
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+        scroll-snap-align: start;
+        padding: 0rem 0rem;
+        min-height: 550px;
+        max-height: 550px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        min-width: 400px;
+        max-width: 400px;
+        overflow: hidden !important;
+
+    }
+
+    .carousel1-component,
+    .carousel2-component {
+        display: flex;
+        flex-direction: column;
+        min-width: 390px;
+        max-width: 390px;
+        min-height: 800px;
+        max-height: 800px;
+        overflow: hidden;
+        scroll-snap-type: none;
+    }
+
+    .carousel2-component {
+        /* background-color: red; */
+        min-height: 950px;
+        max-height: 950px;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .carousel1-component div {
+        overflow-x: scroll;
+        scroll-behavior: smooth;
+        scroll-snap-type: x mandatory;
+        /* background-color: red; */
+        display: flex;
+        align-items: center;
+    }
+
+    .carousel2-component div {
+        display: flex;
+        overflow-x: scroll;
+        scroll-behavior: smooth;
+        scroll-snap-type: x mandatory;
+    }
+
+    .carousel1card2-div1 {
+        overflow: hidden;
+    }
+
+    .nextlink {
+        background-color: rgb(62, 62, 62);
+        position: absolute;
+        top: 120rem;
+        right: 0;
+    }
+
+    .nextlinkx,
+    .prevlinkx {
+        top: 230rem !important;
+    }
+
+    .prevlink {
+        background-color: rgb(62, 62, 62);
+        position: absolute;
+        top: 120rem;
+        left: 0;
+    }
+
+}

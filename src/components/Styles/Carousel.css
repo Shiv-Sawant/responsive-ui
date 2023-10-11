@@ -1,0 +1,168 @@
+.carousel-component {
+    /* background-color: red; */
+    min-width: 99vw;
+    max-width: 99vw;
+    min-height: 650px;
+    max-height: 650px;
+    position: relative !important;
+    z-index: -1;
+    background-color: #fffef2;
+}
+
+.carousel-component img {
+    min-height: 620px;
+    max-height: 620px;
+    min-width: 99vw;
+    max-width: 99vw;
+    position: relative;
+}
+
+.upperimgcontent h1 {
+    font-weight: 400;
+}
+
+.upperimgcontent h3 {
+    font-size: 1rem;
+}
+
+.upperimgcontent h4 {
+    font-size: 1.7rem;
+}
+
+.upperimgcontent p {
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    margin: 0;
+    padding: 0;
+}
+
+.upperimgcontent button {
+    width: 300px;
+    height: 60px;
+    background-color: #fffef2;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.upperimgcontent {
+    position: absolute;
+    /* background-color: red; */
+    color: white;
+    top: 0;
+    min-height: 560px;
+    max-height: 560px;
+    min-width: 780px;
+    max-width: 780px;
+    display: flex;
+    box-sizing: border-box;
+    padding: 5rem;
+    gap: 5rem;
+}
+
+.upperimgcontent-div2 {
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+}
+
+.css-1abc02a {
+    right: 43.3rem !important;
+    top: 35.01rem !important;
+    z-index: 2 !important;
+    /* background-color: red; */
+}
+
+.css-1abc02a h5 {
+    display: none;
+}
+
+.css-hn784z {
+    top: 35rem !important;
+    position: absolute !important;
+    background-color: #fffef2 !important;
+    /* background-color: rgba(194,194,175,255) !important; */
+    /* right: 10rem; */
+}
+
+.css-hn784z div {
+    /* background-color: red !important; */
+    background-color: #fffef2 !important;
+    /* background-color: rgba(194,194,175,255) !important; */
+    min-width: 1900px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+    color: gray;
+}
+
+.css-hn784z div h5 p {
+    padding: 0;
+    margin: 0;
+    font-size: 0.8rem;
+}
+
+
+
+.css-hn784z div h5 {
+    padding: 0;
+    font-size: 0.8rem;
+    margin: 0;
+    gap: 0.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.css-hn784z button:hover,
+.css-hn784z div:hover {
+    background-color: #fffef2 !important;
+    color: gray !important;
+}
+
+.css-hn784z:hover {
+    background-color: #fffef2 !important;
+}
+
+.css-hn784z:hover button {
+    color: gray !important;
+}
+
+.css-hn784z button,
+.css-1abc02a button {
+    background-color: #fffef2 !important;
+    color: gray !important;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+
+}
+
+.carousel-autoplay .pause {
+    font-size: 1.6rem;
+    color: gray;
+    padding-top: 0.2rem;
+    padding-right: 0.2rem;
+}
+
+.carousel-autoplay .play {
+    font-size: 1.3rem;
+    color: gray;
+}
+
+.carousel-autoplay {
+    /* background-color: red; */
+    border: none;
+    outline: none;
+    background-color: #fffef2;
+    position: absolute;
+    bottom: 3.85rem;
+    z-index: 2 !important;
+    left: 52.4rem;
+}
+
+@media screen and (max-width: 768px){
+    
+}
