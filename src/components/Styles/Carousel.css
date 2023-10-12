@@ -1,7 +1,7 @@
 .carousel-component {
     /* background-color: red; */
-    min-width: 99vw;
-    max-width: 99vw;
+    min-width: 1920px;
+    max-width: 1920px;
     min-height: 650px;
     max-height: 650px;
     position: relative !important;
@@ -9,11 +9,15 @@
     background-color: #fffef2;
 }
 
+.carousel-component::-webkit-scrollbar{
+    display: none;
+}
+
 .carousel-component img {
     min-height: 620px;
     max-height: 620px;
-    min-width: 99vw;
-    max-width: 99vw;
+    min-width: 1920px;
+    max-width: 1920px;
     position: relative;
 }
 
@@ -59,6 +63,7 @@
     box-sizing: border-box;
     padding: 5rem;
     gap: 5rem;
+    z-index: 220 !important;
 }
 
 .upperimgcontent-div2 {
@@ -68,7 +73,7 @@
 }
 
 .css-1abc02a {
-    right: 43.3rem !important;
+    right: 55.3rem !important;
     top: 35.01rem !important;
     z-index: 2 !important;
     /* background-color: red; */
@@ -90,7 +95,7 @@
     /* background-color: red !important; */
     background-color: #fffef2 !important;
     /* background-color: rgba(194,194,175,255) !important; */
-    min-width: 1900px !important;
+    min-width: 1920px !important;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -158,9 +163,9 @@
     outline: none;
     background-color: #fffef2;
     position: absolute;
-    bottom: 3.85rem;
+    bottom: 3.5rem;
     z-index: 2 !important;
-    left: 52.4rem;
+    left: 64.4rem;
 }
 
 .car-button {
@@ -211,7 +216,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        border-bottom: 0.5px solid gray;
+        /* border-bottom: 0.5px solid gray; */
     }
 
     .carslidnav2 {
@@ -220,7 +225,7 @@
     }
 
     .carslidnav2 div {
-        border-bottom: 1px solid gray;
+        /* border-bottom: 1px solid gray; */
         height: 50px;
         display: flex;
         align-items: center;

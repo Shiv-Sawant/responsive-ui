@@ -7,8 +7,8 @@
     align-items: center;
     background-color: #252525;
     color: #fffef2;
-   z-index: 2;
-   /* background-color: #fffef2; */
+    z-index: 2;
+    background-color: #fffef2;
 }
 
 
@@ -16,10 +16,11 @@
     width: 100%;
 }
 
-.drawercontainer:hover{
+.drawercontainer:hover {
     width: 100%;
     cursor: pointer;
 }
+
 .drawercontainer>p {
     font-size: 16px;
     margin: auto;
@@ -86,30 +87,32 @@
 }
 
 
-.main-content.open > p{
-   margin-bottom: 20px;
+.main-content.open>p {
+    margin-bottom: 20px;
 }
 
-.main-content-box > p{
+.main-content-box>p {
     font-weight: 500;
     margin-bottom: 10px;
 }
-.content-div-box{
+
+.content-div-box {
     /* border: 1px solid blue; */
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.leftbox >p {
+.leftbox>p {
     margin-bottom: 10px;
 }
 
-.rightbox > p{
+.rightbox>p {
     margin-top: 10px;
 }
+
 /* drower my css */
-.crossbutton{
+.crossbutton {
     /* border: 1px solid black; */
     height: 25px;
     margin-top: 15px;
@@ -129,7 +132,7 @@
         align-items: center;
         background-color: #252525;
         color: #fffef2;
-z-index: 1
+        z-index: 1
     }
 
     .drawercontainer>p {
@@ -139,7 +142,7 @@ z-index: 1
         transition: all 0.5s ease-in-out;
         padding-left: 12px;
         padding-right: 25px;
-        
+
     }
 
     .left-drawer {
@@ -160,7 +163,7 @@ z-index: 1
         font-size: 11px;
     }
 
-    .spl{
+    .spl {
         margin-top: 10px;
     }
 

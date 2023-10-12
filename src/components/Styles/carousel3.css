@@ -7,7 +7,7 @@
     padding: 5rem 0;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 1rem;
+    padding-bottom: 1rem;
 
 }
 
@@ -44,6 +44,16 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    transition:all 300ms;
+}
+
+.carousel3-div1 button:hover {
+    background-color: black;
+    color: white !important;
+}
+
+.carousel3-div1 button:hover p {
+    color: white !important;
 
 }
 
@@ -107,7 +117,7 @@
         overflow: hidden;
     }
 
-    .carousel3-div1 button{
+    .carousel3-div1 button {
         /* background-color: red; */
         min-width: 320px;
         max-width: 320px;
@@ -118,7 +128,7 @@
         padding: 0 1rem;
     }
 
-    .carousel3main img{
+    .carousel3main img {
         display: flex;
         align-items: center;
         justify-content: center;

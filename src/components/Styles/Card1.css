@@ -1,47 +1,57 @@
-    .card-main-box{
+    .card-main-box {
         /* border: 1px solid blue; */
         width: 100%;
         height: 600px;
         display: flex;
+        background-color: #fffef2;
+        padding-top: 2rem;
     }
 
-    .img1{
+    .img1 {
         height: 600px;
         width: 100%;
     }
 
-    .card-box2{
+    .card-box2 {
         /* border: 1px solid green; */
         width: 580px;
         margin-left: 200px;
     }
-    .card-box2 > div{
+
+    .card-box2>div {
         margin-top: 20px;
     }
 
-    .card-box2 > div > h2{
+    .card-box2>div>h2 {
         margin-bottom: 60px;
         font-weight: 400;
     }
 
-    .card-box2 > div> p{
+    .card-box2>div>p {
         font-size: 17px;
     }
 
 
-    .card-box2 > div > button > p{
-        margin-top: 10px;
+    .card-box2>div>button>p {
+        /* margin-top: 10px; */
+        padding: 0;
+        margin: 0;
     }
-    .card-box2 > div > button{
+
+    .card-box2>div>button {
         margin-top: 30px;
         height: 55px;
         width: 300px;
         display: flex;
         justify-content: space-between;
         align-items: center;
+        border: 1px solid gray;
+        background-color: transparent;
+        padding: 0 1rem;
+        outline: none;
     }
 
-    .card-box2 > div > button:hover{
+    .card-box2>div>button:hover {
         margin-top: 30px;
         height: 55px;
         width: 300px;
@@ -52,59 +62,61 @@
         align-items: center;
     }
 
-@media screen  and (max-width: 768px){
-    .card-main-box{
-        /* border: 1px solid rgb(1, 1, 13); */
-        width: 100%;
-        height: 700px ;
-        display: block;
-    }
+    @media screen and (max-width: 768px) {
+        .card-main-box {
+            /* border: 1px solid rgb(1, 1, 13); */
+            width: 100%;
+            height: 700px;
+            display: block;
+        }
 
-    .img1{
-        height: 300px;
-        width: 100%;
-    }
-
-
-    .card-box2{
-        width: 100%;
-        margin-left: 0px;
-        padding: 10px;
-    }
-    .card-box2 > div{
-        margin-top: 20px;
-    }
-
-    .card-box2 > div > h2{
-        margin-bottom: 60px;
-        font-weight: 400;
-    }
-
-    .card-box2 > div> p{
-        font-size: 17px;
-    }
+        .img1 {
+            height: 300px;
+            width: 100%;
+        }
 
 
-    .card-box2 > div > button > p{
-        margin-top: 10px;
-    }
-    .card-box2 > div > button{
-        margin-top: 30px;
-        height: 55px;
-        width: 300px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
+        .card-box2 {
+            width: 100%;
+            margin-left: 0px;
+            padding: 10px;
+        }
 
-    .card-box2 > div > button:hover{
-        margin-top: 30px;
-        height: 55px;
-        width: 300px;
-        display: flex;
-        background-color: black;
-        color: white;
-        justify-content: space-between;
-        align-items: center;
+        .card-box2>div {
+            margin-top: 20px;
+        }
+
+        .card-box2>div>h2 {
+            margin-bottom: 60px;
+            font-weight: 400;
+        }
+
+        .card-box2>div>p {
+            font-size: 17px;
+        }
+
+
+        .card-box2>div>button>p {
+            margin-top: 10px;
+        }
+
+        .card-box2>div>button {
+            margin-top: 30px;
+            height: 55px;
+            width: 300px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .card-box2>div>button:hover {
+            margin-top: 30px;
+            height: 55px;
+            width: 300px;
+            display: flex;
+            background-color: black;
+            color: white;
+            justify-content: space-between;
+            align-items: center;
+        }
     }
-}

@@ -5,7 +5,7 @@ import '../assets/crousel.css'; // You can create your own CSS for styling
 import './Styles/carousel.css'
 import Carousels from 'react-material-ui-carousel'
 import { BsFillPlayFill } from 'react-icons/bs'
-import { BsPause } from 'react-icons/bs'
+import { BsPause, BsArrowRight } from 'react-icons/bs'
 import { FaEquals } from 'react-icons/fa'
 
 const Carousel = () => {
@@ -22,7 +22,7 @@ const Carousel = () => {
             heading4: "Ouranon Eau de Parfum",
             para: "A fragrance that evokes a silent monolith, the last vestige of a stone circle whose meaning has been lost to time—earthy minerality commingling with Frankincense, Hay and Myrrh.",
             buttonpara: " Discover Ouranon",
-            icon: "icon"
+            icon: <BsArrowRight />
         },
         {
             name: "Random Name #2",
@@ -32,7 +32,7 @@ const Carousel = () => {
             heading4: "Ouranon Eau de Parfum",
             para: "A fragrance that evokes a silent monolith, the last vestige of a stone circle whose meaning has been lost to time—earthy minerality commingling with Frankincense, Hay and Myrrh.",
             buttonpara: " Discover Ouranon",
-            icon: "icon"
+            icon: <BsArrowRight />
         },
         {
             name: "Random Name #3",
@@ -42,7 +42,7 @@ const Carousel = () => {
             heading4: "Ouranon Eau de Parfum",
             para: "A fragrance that evokes a silent monolith, the last vestige of a stone circle whose meaning has been lost to time—earthy minerality commingling with Frankincense, Hay and Myrrh.",
             buttonpara: " Discover Ouranon",
-            icon: "icon"
+            icon: <BsArrowRight />
         }
     ]
 
@@ -73,17 +73,7 @@ const Carousel = () => {
 
     return (
         <>
-            {/* {
-                opens &&
-                <>
-                    <div className='car-slider'>
-                        sfd
-                    </div>
-                </>
-            } */}
             <div className='carousel-component'>
-                {/* <div className='car-button' onClick={() => setIsOpens(!opens)}><FaEquals /></div> */}
-
                 <Carousels
                     autoPlay={autoPlays}
                     indicators={false}
